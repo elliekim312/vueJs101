@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <AppHeader />
     <div id="content" class="content">
       <router-view></router-view>
@@ -9,14 +8,15 @@
 </template>
 
 <script>
-// import AppHeader from './components/layout/AppHeader.vue'
+// Commented Out Bootstrap Nav Bar
+import AppHeader from './components/layout/AppHeader.vue'
 
-// export default {
-//   name: 'App',
-//   components: {
-//     AppHeader,
-//   }
-// }
+export default {
+  name: 'App',
+  components: {
+    AppHeader,
+  }
+}
 </script>
 
 <style>

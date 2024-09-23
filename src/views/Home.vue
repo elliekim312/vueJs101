@@ -1,6 +1,6 @@
 <template>
     <div class="mx-5 mt-4">
-        <h1>Welcome to {{ title }}!</h1>
+        <h1>Welcome to {{ title2 }}!</h1>
 
         <div id="playWithInput" class="mt-3">
             <input type="text" v-model="input" class="me-2"/>
@@ -32,7 +32,7 @@ export default {
     data() {
         return {
             title: "Home",
-            title2: "Test",
+            title2: "Vue.js 101",
             input: "Abcd 1234",
             previousInput: "Abcd 1234",
             selectedOption: "",
